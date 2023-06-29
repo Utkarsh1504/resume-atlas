@@ -1,0 +1,33 @@
+.container{
+  background-color: #fff;
+  padding: 20px 20px;
+  /* margin: 0px 0px; */
+  border-radius: 30px;
+  max-width: 80%;
+  margin-left: 150px;
+  height: 250px;
+  border: 2px 2px 2px 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px 2px #e2e2e2;
+}
+.user_name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+input{
+  margin: 10px 0px;
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+}
+
+.btns{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}

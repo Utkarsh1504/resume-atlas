@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px 20px;
+  margin: 20px 0;
+  margin-top: 40px;
+  align-items: center;
+  max-width: 80%;
+  margin-left: 150px;
+  border-radius: 30px;
+  border: 2px 2px 2px 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px 2px #e2e2e2;
+}
+.resumefile_title{
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.resumefile_title svg {
+  margin-top: 2px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  color: var(--gray);
+}
+
+.download_btn svg{
+  padding-top: 1px;
+  height: 20px;
+  width: 20px;
+}
