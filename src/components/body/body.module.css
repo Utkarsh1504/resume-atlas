@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 100px;
+  gap: 0px;
   background-color: var(--rose);
 }
 .heading{
@@ -44,7 +44,7 @@
 
 .right img {
   width: 500px;
-  mix-blend-mode: multiply;
+  /* mix-blend-mode: multiply; */
 }
 
 @media screen and (max-width: 768px) {

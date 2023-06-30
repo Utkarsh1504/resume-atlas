@@ -9,7 +9,7 @@ const Resume = () => {
       <div>
         <SideBar />
       </div>
-      <div>
+      <div className={styles.editor_section}>
         <Editor />
       </div>
       <div>

@@ -53,12 +53,14 @@
   margin: 0;
   box-sizing: border-box;
 }
-button{
+
+.ub{
   text-align: center;
   padding: 20px 20px;
   width: fit-content;
   height: fit-content;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
   outline: none;
   border: none;
   border-radius: 60px;
@@ -66,16 +68,14 @@ button{
   cursor: pointer;
   background-image: linear-gradient(to right, #f75961, #f62572);
 }
-button svg {
-  height: fit-content;
-  width: fit-content;
+
+.ub svg {
+  font-size: 20px;
+  height: 20px;
+  width: 25px;
 }
-button:hover{
+.ub:hover{
   background-image: linear-gradient(to right, #d04b51, #e02066);
 }
 
-body {
-  /* margin: 0 200px; */
-  /* position: relative; */
-}
 

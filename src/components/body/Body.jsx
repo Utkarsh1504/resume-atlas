@@ -17,7 +17,7 @@ const Body = () => {
           Unlock a world of opportunities with a professionally crafted resume.
           It's Free.
         </p>
-        <button onClick={()=>navigate("/resume")} className={styles.body_btn}>
+        <button onClick={()=>navigate("/resume")} className={`ub ${styles.body_btn}`}>
           <AiOutlinePlus />
           Create Your Resume
         </button>

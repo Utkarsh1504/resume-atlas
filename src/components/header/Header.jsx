@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className={styles.container}>
       <img src={logo} alt="" className={styles.logo} onClick={()=>navigate("/")} />
-      <button onClick={()=>navigate("/resume")} className={styles.nav_btn}>
+      <button onClick={()=>navigate("/resume")} className={`${styles.nav_btn} ub`}>
         Try for free <MdOutlineArrowForwardIos />
       </button>
     </div>
