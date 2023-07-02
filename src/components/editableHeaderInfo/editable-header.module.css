@@ -1,0 +1,156 @@
+.container{
+  background-color: #fff;
+  padding: 20px 20px;
+  border-radius: 30px;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border: 2px 2px 2px 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px #e2e2e2;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-right: 120px;
+}
+
+.form_layout{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.input_section h2{
+  font-size: 20px;
+}
+.label_heading{
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.input_fields{
+  border: none;
+  outline: none;
+  width: 350px;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  opacity: 0.8;
+  background-color: var(--input);
+  margin-left: 20px;
+}
+
+.label_heading span{
+  margin-left: 5px;
+  color: var(--gray);
+  font-size: 10px;
+}
+
+
+.form_rdetails{
+  display: flex;
+  margin: 0px 20px;
+}
+.input_rdetails{
+  width: 250px;
+  margin-right: 8px;
+}
+.input_address{
+  margin: 0 20px;
+  margin-bottom: 40px;
+
+}
+.input_add{
+  width: 530px;
+}
+.links{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.links_layout{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 20px;
+}
+
+.form_btn{
+  display: flex;
+  justify-content: end;
+}
+.form_btn button{
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.cancel_btn{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 10px;
+  opacity: 0.6;
+}
+.cancel_btn:hover{
+  opacity: 1;
+}
+.save_btn{
+  background-image: linear-gradient(to right, #f75961, #f62572);
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 20px;
+  margin: 10px 20px;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+.save_btn:hover{
+  background-image: linear-gradient(to right, #d04b51, #e02066);
+}
+.save_btn svg{
+  height: 15px;
+  width: 15px;
+  font-size: 20px;
+}
+
+.custom_scroll {
+  overflow-y: auto; 
+}
+
+.custom_scroll::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent; 
+}
+
+.profile_img {
+  position: relative;
+  display: inline-block;
+}
+
+.placeholder_img {
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 60px;
+  margin-right: 15px;
+  opacity: 0.5;
+}
+
+.img_input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}

@@ -1,12 +1,25 @@
 
 .container {  
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 100%;
-  overflow: hidden;
+  overflow:hidden;
 }
 .editor_section{
   height: 100%;
   flex: 1;
-  width: fit-content;
+}
+.side_container{
+  width: 200px;
+  height: 100%;
+}
+
+.resume_section{
+  height: 100%;
+}
+.resume_modal{
+  margin: 0px;
+  height: 100%;
+  width: 60%;
+  overflow-x: hidden;
 }

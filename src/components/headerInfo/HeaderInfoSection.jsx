@@ -7,7 +7,7 @@ import dp from "../../assets/user.png";
 
 const HeaderInfoSection = (props) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} onClick={()=>props.setShowEditable(true)}>
       <div className={styles.name_container}>
         <div className={styles.name_dummy}>{props.name || "Your Name"}</div>
         <div className={styles.edit_option}>

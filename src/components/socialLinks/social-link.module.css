@@ -1,0 +1,23 @@
+.link{
+  width: fit-content;
+  height: fit-content;
+  padding: 8px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  background-color: #efefef;
+  color: var(--gray);
+}
+.link:hover{
+  color: #333;
+}
+.link svg {
+  height: 12px;
+  width: 12px;
+  font-weight: 30px;
+  opacity: 1;
+}
