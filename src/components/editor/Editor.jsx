@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import TopBar from "../topBar/TopBar";
 import styles from "./editor.module.css";
 
-const Editor = () => {
+const Editor = ({activeComponent, handleTab}) => {
   return (
-    <div className={styles.container}>
-      <TopBar />
+    <div className={styles.editon_section}>
+      <TopBar activeComponent={activeComponent} handleTab={handleTab} />
     </div>
   );
 };

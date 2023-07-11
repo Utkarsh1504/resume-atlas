@@ -11,6 +11,7 @@
   font-size: 13px;
   background-color: #efefef;
   color: var(--gray);
+  cursor: pointer;
 }
 .link:hover{
   color: #333;

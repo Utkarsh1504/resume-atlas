@@ -27,10 +27,14 @@
 }
 .resumefile_title svg {
   margin-top: 2px;
-  height: 20px;
+  margin-left: 5px;
+  height: 16px;
   width: 20px;
   cursor: pointer;
   color: var(--gray);
+}
+.resumefile_title svg:hover{
+  opacity: 0.5;
 }
 
 .download_btn{
@@ -67,4 +71,9 @@
   justify-content: center;
   margin: 20px 0px;
   margin-bottom: 40px;
+}
+.resume_content_modal{
+  height: fit-content;
+  max-height: 100%;
+  width: 95%;
 }

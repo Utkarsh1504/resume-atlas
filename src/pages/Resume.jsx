@@ -7,6 +7,11 @@ import Modal from "../components/modal/Modal";
 
 const Resume = () => {
   const [showModal, setShowModal] = useState(false);
+  const [activeComponent, setActiveComponent] = useState("content");
+
+  const handleTab = (componentName) => {
+    setActiveComponent(componentName);
+  };
 
   return (
     <div className={styles.container}>
@@ -19,10 +24,10 @@ const Resume = () => {
         </Modal>
       )}
       <div className={styles.side_container}>
-        <SideBar />
+        <SideBar handleTab={handleTab} />
       </div>
       <div className={styles.editor_section}>
-        <Editor />
+        <Editor activeComponent={activeComponent} handleTab={handleTab} />
       </div>
       <div className={styles.resume_section}>
         <ResumePreview setShowModal={setShowModal} />

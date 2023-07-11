@@ -2,11 +2,13 @@
 import styles from "./social-link.module.css";
 import { AiOutlinePlus } from "react-icons/ai";
 
-const SocialLinks = ({ link }) => {
+const SocialLinks = ({ link, onClick }) => {
   return (
-    <div className={styles.link}>
-      <AiOutlinePlus />
-      {link}
+    <div className={styles.link} onClick={onClick}>
+      <div>
+        <AiOutlinePlus />
+        {link}
+      </div>
     </div>
   );
 };
