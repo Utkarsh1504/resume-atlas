@@ -1,0 +1,43 @@
+.editor_container {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 30px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+.editor {
+  width: 550px;
+  min-height: 150px;
+  height: 80px;
+  font-size: 16px;
+  line-height: 1.5;
+  outline: none;
+}
+
+.ql-container {
+  overflow: auto;
+}
+
+.ql-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.ql-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+}
+
+.title span{
+  font-size: 10px;
+  color: gray;
+  margin-left: 5px;
+}

@@ -6,9 +6,14 @@ const IconComponent = ({ icon: Icon }) => {
   return <Icon />;
 };
 
-const ContentCard = ({ ...content }) => {
+const ContentCard = ({getIcon, getTitle, setShowCard, setShowModal, ...content }) => {
   return (
-    <div className={styles.card_container}>
+    <div className={styles.card_container} onClick={() => {
+      getIcon(content.icon);
+      getTitle(content.title);
+      setShowCard(true);
+      setShowModal(false);
+    }}>
       <h2 className={styles.title}>
         <IconComponent icon={content.icon} />
         {content.title}

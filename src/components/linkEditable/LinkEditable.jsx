@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
+import LinkButton from "../linkButton/LinkButton";
 import styles from "./linkeditable.module.css";
 import { MdOutlineDelete } from "react-icons/md";
-import { FiLink } from "react-icons/fi";
 
 const LinkEditable = ({ title, setShowLinkEditable }) => {
   return (
@@ -15,10 +15,7 @@ const LinkEditable = ({ title, setShowLinkEditable }) => {
           type="text"
           placeholder={`Enter ${title || "Site"}`}
         />
-        <div className={styles.link_btn}>
-          <FiLink />
-          Link
-        </div>
+        <LinkButton />
         <button
           className={styles.delete_btn}
           onClick={() => setShowLinkEditable(false)}

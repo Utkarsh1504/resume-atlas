@@ -1,0 +1,63 @@
+.input_fields{
+  border: none;
+  outline: none;
+  width: 350px;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  opacity: 0.8;
+  background-color: var(--input);
+  margin-left: 10px;
+}
+
+.label_heading{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #000;
+}
+
+.label_heading span{
+  margin-left: 5px;
+  color: var(--gray);
+  font-size: 10px;
+}
+
+.form_rdetails{
+  display: flex;
+  margin: 10px 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.input_rdetails{
+  width: 250px;
+  margin-right: 8px;
+}
+.custom_input{
+  width: 500px;
+  margin-right: 8px;
+}
+.input_address{
+  margin: 0 20px;
+  margin-bottom: 40px;
+
+}
+.input_add{
+  width: 530px;
+}
+
+.type1_cont{
+  margin: 0px 20px;
+  margin-bottom: 10px;
+}
+.url_container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  margin: 20px;
+}
+.link_btn{
+  margin-top: 20px;
+  margin-right: 20px;
+}

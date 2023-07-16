@@ -30,7 +30,6 @@
   margin-bottom: 20px;
   padding: 20px 0;
   cursor: pointer;
-
 }
 
 .sidebar_item:hover {
@@ -48,6 +47,10 @@
   color: var(--gray);
   opacity: 0.5;
 }
+.sidebar_item svg:hover{
+  color: var(--red);
+}
+
 
 .sidebar_item p {
   font-size: 15px;
@@ -56,4 +59,12 @@
   font-weight: 400;
 }
 
+.container .sidebar_item.active{
+  background-color: var(--rose-b);
+  color: var(--red);
+  border-radius: 10px;
+}
+.sidebar_item svg.active{
+  color: var(--red);
+}
 

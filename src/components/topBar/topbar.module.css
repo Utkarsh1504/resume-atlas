@@ -54,11 +54,12 @@
   border-bottom: 10px;
   border-radius: 10px;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 
 .custom_scroll {
-  overflow: auto; 
+  overflow-y: auto; 
 }
 
 .custom_scroll::-webkit-scrollbar {

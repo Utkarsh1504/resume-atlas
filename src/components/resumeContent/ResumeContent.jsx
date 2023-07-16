@@ -2,12 +2,19 @@
 import ContentCard from "../contentCard/ContentCard";
 import styles from "./resume-content.module.css";
 import { MdClose } from "react-icons/md";
-import { FaAddressCard, FaPuzzlePiece, FaFolderOpen, FaBookOpen, FaHouseUser,FaTrophy } from "react-icons/fa";
+import {
+  FaAddressCard,
+  FaPuzzlePiece,
+  FaFolderOpen,
+  FaBookOpen,
+  FaHouseUser,
+  FaTrophy,
+} from "react-icons/fa";
 import { MdSchool, MdWork } from "react-icons/md";
 import { GiSkills } from "react-icons/gi";
 import { PiCertificateFill } from "react-icons/pi";
 
-function ResumeContent({ setShowModal }) {
+function ResumeContent({getIcon, getTitle, setShowCard, setShowModal }) {
   const contents = [
     {
       title: "Profile",
@@ -74,7 +81,14 @@ function ResumeContent({ setShowModal }) {
       </div>
       <div className={styles.content_cards}>
         {contents.map((content, index) => (
-          <ContentCard {...content} key={index} />
+          <ContentCard
+            getIcon={getIcon}
+            getTitle={getTitle}
+            setShowCard={setShowCard}
+          setShowModal={setShowModal}
+            {...content}
+            key={index}
+          />
         ))}
       </div>
     </div>

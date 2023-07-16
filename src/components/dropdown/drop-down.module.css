@@ -1,0 +1,17 @@
+.dropdown{
+  min-height: 40px;
+  min-width: 80px;
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  color: #000;
+  background-color: #fff;
+  padding: 1.5rem;
+  background-color: #fff;
+  border: 1px solid #e2e8f0; 
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px 0 #0000001a;
+  z-index: 1;
+}

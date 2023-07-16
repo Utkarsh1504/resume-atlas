@@ -1,0 +1,80 @@
+.container{
+  display: flex;
+  background-color: #fff;
+  padding: 20px 20px;
+  border-radius: 30px;
+  max-width: 100%;
+  width: 100%;
+  max-height: 80px;
+  min-height: 80px;
+  border: 2px 2px 2px 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px #e2e2e2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.delete_btn{
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 10px;
+  margin: 10px 20px;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: #fff;
+}
+.delete_sec svg {
+  height: 15px;
+  width: 15px;
+  font-size: 20px;
+}
+.delete_btn:hover{
+  opacity: 0.8;
+}
+
+.side_btn button{
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.cancel_btn{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 10px;
+  opacity: 0.6;
+}
+.cancel_btn:hover{
+  opacity: 1;
+}
+.save_btn{
+  background-image: linear-gradient(to right, #f75961, #f62572);
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 20px;
+  margin: 10px 20px;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+.save_btn:hover{
+  background-image: linear-gradient(to right, #d04b51, #e02066);
+}
+.save_btn svg{
+  height: 15px;
+  width: 15px;
+  font-size: 20px;
+}

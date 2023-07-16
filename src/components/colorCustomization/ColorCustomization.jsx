@@ -69,33 +69,33 @@ const ColorCustomization = () => {
         <div className={styles.color_customize_box}>
           <div className={styles.color_custom_elem}>
             <input type="checkbox" />
-            <label htmlFor="">Name</label>
+            <label htmlFor="name">Name</label>
           </div>
 
           <div className={styles.color_custom_elem}>
             <input type="checkbox" />
-            <label htmlFor="">Heading</label>
+            <label htmlFor="heading">Heading</label>
           </div>
 
           <div className={styles.color_custom_elem}>
             <input type="checkbox" />
-            <label htmlFor="">Header icons</label>
+            <label htmlFor="header-icons">Header icons</label>
           </div>
         </div>
         <div className={styles.color_customize_box}>
           <div className={styles.color_custom_elem}>
             <input type="checkbox" />
-            <label htmlFor="">Dots/Bars/Bubbles</label>
+            <label htmlFor="dots">Dots/Bars/Bubbles</label>
           </div>
 
           <div className={styles.color_custom_elem}>
             <input type="checkbox" />
-            <label htmlFor="">Dates</label>
+            <label htmlFor="date">Dates</label>
           </div>
 
           <div className={styles.color_custom_elem}>
             <input type="checkbox" />
-            <label htmlFor="">Link icons</label>
+            <label htmlFor="link">Link icons</label>
           </div>
         </div>
       </div>

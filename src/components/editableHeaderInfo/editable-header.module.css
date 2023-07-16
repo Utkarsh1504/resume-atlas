@@ -4,7 +4,7 @@
   border-radius: 30px;
   max-width: 100%;
   width: 100%;
-  height: 100%;
+  height: fit-content;
   border: 2px 2px 2px 2px solid rgba(0, 0, 0, 0.5);
   box-shadow: 1px 2px #e2e2e2;
   padding: 10px;
@@ -48,32 +48,16 @@
   font-size: 10px;
 }
 
-
-.form_rdetails{
-  display: flex;
-  margin: 0px 20px;
-}
-.input_rdetails{
-  width: 250px;
-  margin-right: 8px;
-}
-.input_address{
-  margin: 0 20px;
-  margin-bottom: 40px;
-
-}
-.input_add{
-  width: 530px;
-}
 .links{
   font-size: 20px;
   margin-left: 20px;
+  margin-top: 10px;
 }
 .links_layout{
   display: flex;
   flex-wrap: wrap;
   margin: 0px 20px;
-  /* position: relative; */
+  margin-bottom: 20px;
 }
 
 .form_btn{
