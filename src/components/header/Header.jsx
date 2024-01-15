@@ -9,7 +9,7 @@ const Header = () => {
     <div className={styles.container}>
       <img src={logo} alt="" className={styles.logo} onClick={()=>navigate("/")} />
       <button onClick={()=>navigate("/resume")} className={`${styles.nav_btn} ub`}>
-        Try for free <FaAngleRight />
+        Try it <FaAngleRight />
       </button>
     </div>
   );
